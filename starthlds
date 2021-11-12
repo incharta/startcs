@@ -1,0 +1,3 @@
+screen -a
+cd ./steam/csgo1.6
+./hlds_run -game cstrike -console +ip 'IP' +maxplayers 32 +map 'MAP' -secure -sv_lan 0 -autoupdate -port 27030

@@ -1,0 +1,2 @@
+cd ./steam/servercsgo 
+screen -S "Counter-Strike: Global Offensive Server" ./srcds_run -game csgo -console -usercon +game_type 0 +game_mode 1 +mapgroup mg_active +map 'MAP' -tickrate 128 -nobots +secure -autoupdate +maxplayers 11 -nohltv +tv_enable 0 -tvdisable +hostport 27015 +sv_setsteamaccount 'YOUR_TOKEN' -net_port_try 1
